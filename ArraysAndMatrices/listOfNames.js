@@ -3,9 +3,9 @@ function solve(arr) {
     arr.sort((a, b) => a.localeCompare(b));
 
     for (let i = 0; i < arr.length; i++) {
-        result.push(`${++i}` + `.` + `${arr[--i]}`);
+        result.push(`${++i}` + '.' + `${arr[--i]}`);
     }
-    return result.join("\n");
+    return result.join('\n');
 }
 
-console.log(solve(["John", "bob", "john", "Ema"]));
+console.log(solve(['John', 'bob', 'john', 'Ema']));

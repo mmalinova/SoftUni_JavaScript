@@ -7,7 +7,7 @@ function solve(arr) {
         }
         return result;
     })
-    .join("\n");
+    .join('\n');
 }
 
 console.log(solve(['test',

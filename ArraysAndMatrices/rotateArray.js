@@ -4,7 +4,7 @@ function solve(arr, number) {
         arr.unshift(temp);
     }
 
-    return arr.join(" ");
+    return arr.join(' ');
 }
 
 console.log(solve(['Banana',
@@ -13,4 +13,4 @@ console.log(solve(['Banana',
     'Apple'],
     15
 )
-)
+);

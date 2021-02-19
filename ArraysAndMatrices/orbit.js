@@ -15,7 +15,7 @@ function solve(arr) {
         }
     }
  
-    console.log(matrix.map(row => row.join(" ")).join("\n"));
+    console.log(matrix.map(row => row.join(' ')).join('\n'));
 }
 
-solve([5, 5, 2, 2])
+solve([5, 5, 2, 2]);
